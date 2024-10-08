@@ -38,11 +38,6 @@
         width: 100%;
     }
 
-    .body-hero{
-        height: 100%;
-        width: 1980px;
-        object-fit: cover;
-    }
 
     .navbar-logo{
         height: 80px;
@@ -567,13 +562,22 @@
         }
 
         .rev-container{
-            width: 458px;
+            width: 180px;
             position: relative;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
     
         }
+
+        .cont-1{
+            background: url(images/stars.jpg);
+            object-fit: cover;
+            justify-content: start;
+            margin-left: -10px;
+            width: 450  px;
+        }
+    
 
         
     }
