@@ -38,6 +38,11 @@
         width: 100%;
     }
 
+    .body-hero{
+        height: 100%;
+        width: 1980px;
+        object-fit: cover;
+    }
 
     .navbar-logo{
         height: 80px;
@@ -309,8 +314,8 @@
         padding: 0 0 30px 0;
         color: #d0d0d0;
         font-size: 14px;
-        background: #481d1d;
-        font-family: samsung1;
+        background: #000000;
+        font-family: 'Roboto Slab', serif;
     }
     .footer .footer-top{
         padding: 60px 0 20px;
@@ -450,24 +455,10 @@
             width: 100%;
         }
 
-        .footer{
-            padding: 0 0 30px 0;
-            color: #d0d0d0;
-            font-size: 14px;
-            background: #000000;
-            font-family: samsung1;
-            width: 458px;
-        }
-
         .footer .footer-content{
             height: 200px;
-            width: 480px;
+            width: 100%;
         }
-        .footer .footer-top{
-            width: 458px;
-        }
-        
-
         .paragfoot{
             width: 100%;
         }
@@ -508,13 +499,16 @@
         }
 
         .revh1{
-            margin-top: 100px;
+            margin-top: 100px;  
         }
 
         .PricingCont{
             width: 100%;
             height: 4800px;
         }
+        .navbar-logo1{
+        
+        }   
 
         .PricingCont{
             height: 4200px;
@@ -547,39 +541,6 @@
         .form-control1{
             display: none;
         }
-
-        .body-hero{
-            width: 100%;
-        }
-
-        .contactUs{
-            background-color: rgb(255, 255, 255);
-            height: 800px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 458px;
-        }
-
-        .rev-container{
-            width: 180px;
-            position: relative;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-    
-        }
-
-        .cont-1{
-            background: url(images/stars.jpg);
-            object-fit: cover;
-            justify-content: start;
-            margin-left: -10px;
-            width: 450  px;
-        }
-    
-
-        
     }
 
 
