@@ -314,8 +314,8 @@
         padding: 0 0 30px 0;
         color: #d0d0d0;
         font-size: 14px;
-        background: #000000;
-        font-family: 'Roboto Slab', serif;
+        background: #481d1d;
+        font-family: samsung1;
     }
     .footer .footer-top{
         padding: 60px 0 20px;
@@ -455,10 +455,24 @@
             width: 100%;
         }
 
+        .footer{
+            padding: 0 0 30px 0;
+            color: #d0d0d0;
+            font-size: 14px;
+            background: #000000;
+            font-family: samsung1;
+            width: 458px;
+        }
+
         .footer .footer-content{
             height: 200px;
-            width: 100%;
+            width: 480px;
         }
+        .footer .footer-top{
+            width: 458px;
+        }
+        
+
         .paragfoot{
             width: 100%;
         }
@@ -541,6 +555,24 @@
 
         .body-hero{
             width: 100%;
+        }
+
+        .contactUs{
+            background-color: rgb(255, 255, 255);
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 458px;
+        }
+
+        .rev-container{
+            width: 458px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
         }
 
         
